@@ -36,4 +36,6 @@ Teacher developer this general JSON with ideas related to the content in Figma:
 
 Grouping the informations in this JSON and improving:
 
-![](images/grouping-the-informations-in-the-json-and-improving.png)
+![grouping the informations in the json and improving](images/grouping-the-informations-in-the-json-and-improving.png)
+
+I found [this json](https://github.com/digitalinnovationone/santander-dev-week-2023-api/blob/main/docs/mocks/find_one.json) in the Github repository of the project.
