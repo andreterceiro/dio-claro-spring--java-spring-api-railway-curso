@@ -16,3 +16,5 @@ I had to change the port of the application because I already had an application
 ```
 server.port = 8081
 ```
+
+I renamed the main class as instructed by the teacher to `Application.java` (in src/main/java/dio/), had some changes in this file to reflect this new name and runned the appplication clicking with the left button over the class `Application.java` and selecting "`Run as > Java Application`".
