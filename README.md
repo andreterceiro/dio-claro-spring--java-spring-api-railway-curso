@@ -24,3 +24,7 @@ To see the result, I opened "`http://127.0.0.1:8081`" in a browser and saw an er
 Teacher saw the dependencied that we selected in Spring Initializr are in the file build.gradle (root directory).
 
 Teacher shared with us [this content](https://www.figma.com/design/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?node-id=1421-432) that is in Figma related to the API to be devfeloped.
+
+Teacher developer this general JSON with ideas related to the content in Figma:
+
+![initial json ideas based on figma](images/initial-json-ideas-based-on-figma.png)
