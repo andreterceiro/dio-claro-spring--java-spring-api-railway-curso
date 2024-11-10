@@ -28,3 +28,7 @@ Teacher shared with us [this content](https://www.figma.com/design/0ZsjwjsYlYd3t
 Teacher developer this general JSON with ideas related to the content in Figma:
 
 ![initial json ideas based on figma](images/initial-json-ideas-based-on-figma.png)
+
+Grouping the informations in this JSON and improving:
+
+![](images/grouping-the-informations-in-the-json-and-improving.png)
