@@ -8,3 +8,5 @@
 We generated the boilerplate in the [http://start.spring.io](http://start.spring.io) again. I tried to use the configurations more next to the teacher. These was the configurations that I selected:
 
 ![Configurations in Spring Initializr](images/configurations-in-spring-initializr.png)
+
+I tried to make the same configuration as the teacher, used `Java 17`, but the Spring Boot version had to be newer because the course was recorded last year.
