@@ -10,3 +10,9 @@ We generated the boilerplate in the [http://start.spring.io](http://start.spring
 ![Configurations in Spring Initializr](images/configurations-in-spring-initializr.png)
 
 I tried to make the same configuration as the teacher, used `Java 17`, but the Spring Boot version had to be newer because the course was recorded last year.
+
+I had to change the port of the application because I already had an application running in the por 8080. I changed adding a file `application.properties` in the root directory with this content:
+
+```
+server.port = 8081
+```
