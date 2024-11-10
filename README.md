@@ -22,3 +22,5 @@ I renamed the main class as instructed by the teacher to `Application.java` (in 
 To see the result, I opened "`http://127.0.0.1:8081`" in a browser and saw an error 404 (ok, an error, but the application was invoked = works).
 
 Teacher saw the dependencied that we selected in Spring Initializr are in the file build.gradle (root directory).
+
+Teacher shared with us [this content](https://www.figma.com/design/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?node-id=1421-432) that is in Figma related to the API to be devfeloped.
