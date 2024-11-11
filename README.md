@@ -50,3 +50,43 @@ As you can see in this image, teacher asked ChatGPT for help. Specifically, to g
 The answer was:
 
 ![ChatGPT answer](images/chatgpt-answer.png)
+
+I got this Mermaid class diagram in the repository of the course and installed the extension "`Markdown Preview Mermaid Support`" to see the preview in VSCode.
+
+```mermaid
+classDiagram
+  class User {
+    -String name
+    -Account account
+    -Feature[] features
+    -Card card
+    -News[] news
+  }
+
+  class Account {
+    -String number
+    -String agency
+    -Number balance
+    -Number limit
+  }
+
+  class Feature {
+    -String icon
+    -String description
+  }
+
+  class Card {
+    -String number
+    -Number limit
+  }
+
+  class News {
+    -String icon
+    -String description
+  }
+
+  User "1" *-- "1" Account
+  User "1" *-- "N" Feature
+  User "1" *-- "1" Card
+  User "1" *-- "N" News
+```
