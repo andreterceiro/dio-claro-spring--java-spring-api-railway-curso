@@ -133,3 +133,9 @@ Well, `UserController` uses `UserService`. Details:
 
 - The annotation "`@Autowired`" was **not** used;
 - `UserController` depends on the **interface** `UserService`, but Spring knows that it have to inject `UserServiceImpl`, who implements `UserService` **interface** and has the "`@Service`" annotation.
+
+The basic annotations:
+
+- **@RestController** in the **class** to the class acts as a REST controller, receiving requests;
+- **@RequestMapping("/users"): prefix of the URL used in methods that receives requests, like `users/1`;
+- **@GetMapping("/{id}"): obviously ("/{id}") was an example and we have "@PostMapping", "@PutMapping", "@DeleteMapping" etc related to other HTTP verbs.
