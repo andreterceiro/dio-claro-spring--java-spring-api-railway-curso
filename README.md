@@ -279,3 +279,10 @@ Then I achieved to access the API in browser using this URL. In port 80, right? 
 Then I could access `Swagger` in [this URL](https://fair-hour-production.up.railway.app/swagger-ui/index.htm).
 
 I recorded [this video](https://youtu.be/6YjE987Vjfg) about the project working on `Railway`.
+
+
+# Dealing with a CORS problem
+
+Teacher inserted this `@OpenAPIDefinition` annotation to solve a CORS problem:
+
+![open api definition](images/open-api-definition.png)
