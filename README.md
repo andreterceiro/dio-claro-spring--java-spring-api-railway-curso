@@ -94,3 +94,7 @@ classDiagram
 Teacher passed use [this site](https://mermaid.js.org/) as the official website who talks about Mermaid. Teacher talked us that Mermaid is very powerful, supports several things, like relations and sequence diagram!
 
 When I tried to copy some model classes from the official repository, I run into some problems. I am not very experienced with Gradle and I generated my imports in Spring Initializr. The versions are different, I already experienced a problem like this in an another project. Ok, I can copy some Gradle files from the DIO's repository, but I do not have time now for debugging (really serious). Instead, I forked (optional) the DIO repository [here](https://github.com/andreterceiro/santander-dev-week-2023-api), imported in Eclipse as a Gradle project (option "`Import`" and not open), changed the port of the application in the file `application.properties` and had a success when trying to run the project. Because I do not have too much time now, I will take notes here, I will see the files in that repository, but I will not try to reproduce the results prior to develop me version of the solution that I have to deliver.
+
+I changed the strategy to change the port of the application. I removed the file `application.properties` and inserted the next configuration to the YML file `src/main/resources/application-dev.yml`. I have also to insert a environment variable in `Eclipse` in `Run -> Run configuration -> Environment`:
+
+![environment variable](images/enviroment-variable.png)
