@@ -116,3 +116,8 @@ To access `H2 Console`, please open the URL "`http://127.0.0.1:8085/h2-console`"
 # Models
 
 Teacher created the models. Please verify every file in the repository (https://github.com/andreterceiro/santander-dev-week-2023-api). Remember, unlike some other MVC implementations, in this strategy of implementation repositories to access databases are used, ok? In this application developed by teacher we have an UserRepository **interface** that extentds **JpaRepository **.
+
+
+# Service
+
+Teacher created interfaces to be exposedin the "`service`" package and in the subdirectory "`impl`" created the implementations that implements the interfaces. As you can see in the files, the unique implementation class that we have is "`UserServiceImpl.java`" that uses the "`Repository`".
