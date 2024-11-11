@@ -139,3 +139,7 @@ The basic annotations:
 - **@RestController** in the **class** to the class acts as a REST controller, receiving requests;
 - **@RequestMapping("/users"): prefix of the URL used in methods that receives requests, like `users/1`;
 - **@GetMapping("/{id}"): obviously ("/{id}") was an example and we have "@PostMapping", "@PutMapping", "@DeleteMapping" etc related to other HTTP verbs.
+
+Remembering how to get a variable through URL:
+
+![path variable](images/path-variable.png)
