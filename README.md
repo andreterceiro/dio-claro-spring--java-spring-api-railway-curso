@@ -111,3 +111,8 @@ SPRING_PROFILES_ACTIVE = dev
 # H2 console
 
 To access `H2 Console`, please open the URL "`http://127.0.0.1:8085/h2-console`". The username, password and database that are requeried to connect are in the file `src/main/resources/application-dev.yml` (repository="https://github.com/andreterceiro/santander-dev-week-2023-api").
+
+
+# Models
+
+Teacher created the models. Please verify every file in the repository (https://github.com/andreterceiro/santander-dev-week-2023-api). Remember, unlike some other MVC implementations, in this strategy of implementation repositories to access databases are used, ok? In this application developed by teacher we have an UserRepository **interface** that extentds **JpaRepository **.
