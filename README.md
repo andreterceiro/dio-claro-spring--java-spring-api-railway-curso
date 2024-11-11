@@ -39,3 +39,14 @@ Grouping the informations in this JSON and improving:
 ![grouping the informations in the json and improving](images/grouping-the-informations-in-the-json-and-improving.png)
 
 I found [this json](https://github.com/digitalinnovationone/santander-dev-week-2023-api/blob/main/docs/mocks/find_one.json) in the Github repository of the project.
+
+
+# Asking help for ChatGPT
+
+As you can see in this image, teacher asked ChatGPT for help. Specifically, to generate a Mermaid diagram:
+
+![asking ChatGPT for help](images/asking-chatgpt-for-help.png)
+
+The answer was:
+
+![ChatGPT answer](images/chatgpt-answer.png)
