@@ -106,3 +106,8 @@ SPRING_PROFILES_ACTIVE = dev
 ```
 
 **Important**: as you can see in the image, the equals sign do not exists. There are two fields.
+
+
+# H2 console
+
+To access `H2 Console`, please open the URL "`http://127.0.0.1:8085/h2-console`". The username, password and database that are requeried to connect are in the file `src/main/resources/application-dev.yml` (repository="https://github.com/andreterceiro/santander-dev-week-2023-api").
