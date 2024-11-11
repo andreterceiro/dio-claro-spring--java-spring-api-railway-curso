@@ -273,3 +273,5 @@ But when I run the previous commands in CLI, Railway generated the name `"fair-h
 The URL that Railway passed to me was "http://fair-hour-production.up.railway.app" as you can see in the image.
 
 Then I achieved to access the API in browser using this URL. In port 80, right? I do not know clearly why.
+
+Then I could access `Swagger` in [this URL](https://fair-hour-production.up.railway.app/swagger-ui/index.htm). 
