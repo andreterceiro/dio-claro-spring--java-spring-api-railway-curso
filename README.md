@@ -161,3 +161,23 @@ This way we can access `http://127.0.0.1:8085/swagger-ui.html`:
 As you can see in the next image, several things are created when I create (POST method) a new user:
 
 ![several things are created when I POST a new user](images/several-things-created.png)
+
+I do not know exactly why, but to the API works I needed to do not POST the relations `ONE to MANY`. The `JSON` that I posted in `Swagger` was:
+
+```
+{
+  "name": "Devweekerson",
+  "account": {
+    "number": "01.097954-4",
+    "agency": "2030",
+    "balance": 624.12,
+    "limit": 1000.00
+  },
+  "card": {
+    "number": "xxxx xxxx xxxx 1111",
+    "limit": 2000.00
+  }
+}
+```
+
+I will see the error in future, but this simple JSON that I mentioned above worked to create an user, an account and a card.
