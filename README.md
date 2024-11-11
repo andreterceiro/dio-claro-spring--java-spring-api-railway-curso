@@ -252,7 +252,7 @@ railway link
 railway up
 ```
 
-I recorded [this initial video](https://youtu.be/gqMaAAW3fAc) about my initial atempts to make the project running on Railway.
+I recorded [this initial video](https://youtu.be/gqMaAAW3fAc) about my initial atempts to make the project run on Railway.
 
 
 # Next attempts trying to run the app on Railway
