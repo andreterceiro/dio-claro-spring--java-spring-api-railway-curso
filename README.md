@@ -181,3 +181,5 @@ I do not know exactly why, but to the API works I needed to do not POST the rela
 ```
 
 I will see the error in future, but this simple JSON that I mentioned above worked to create an user, an account and a card.
+
+I used [this JSON](https://digitalinnovationone.github.io/santander-dev-week-2023-api/mocks/find_one.json) as base removing features and news of the JSON.
