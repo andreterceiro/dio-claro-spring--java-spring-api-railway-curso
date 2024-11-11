@@ -274,4 +274,6 @@ The URL that Railway passed to me was "http://fair-hour-production.up.railway.ap
 
 Then I achieved to access the API in browser using this URL. In port 80, right? I do not know clearly why.
 
-Then I could access `Swagger` in [this URL](https://fair-hour-production.up.railway.app/swagger-ui/index.htm). 
+Then I could access `Swagger` in [this URL](https://fair-hour-production.up.railway.app/swagger-ui/index.htm).
+
+I recorded [this video](https://youtu.be/6YjE987Vjfg) about the project working on `Railway`.
