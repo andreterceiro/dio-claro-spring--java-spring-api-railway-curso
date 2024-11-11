@@ -125,3 +125,11 @@ Teacher created interfaces to be exposedin the "`service`" package and in the su
 The `UserRepository` is injected in the service by Spring, but we do **not** need am annotation "`@Autowired`".
 
 In [this video](https://youtu.be/Z5QKAiNDhvs) I show an interesting thing that I noted when I watched teacher's videos.
+
+
+# Controller
+
+Well, `UserController` uses `UserService`. Details:
+
+- The annotation "`@Autowired`" was **not** used;
+- `UserController` depends on the **interface** `UserService`, but Spring knows that it have to inject `UserServiceImpl`, who implements `UserService` **interface** and has the "`@Service`" annotation.
