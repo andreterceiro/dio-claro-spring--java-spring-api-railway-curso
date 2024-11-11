@@ -157,3 +157,7 @@ It was added a Swagger dependency in `build.gradle` file. This dependency is mar
 This way we can access `http://127.0.0.1:8085/swagger-ui.html`:
 
 ![accessing Swagger](images/swagger.png)
+
+As you can see in the next image, several things are created when I create (POST method) a new user:
+
+![several things created when I POST a new user](images/several-things-created.png)
