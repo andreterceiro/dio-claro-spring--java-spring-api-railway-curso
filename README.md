@@ -153,3 +153,7 @@ As you can see in the next image, this is the way we deal with `POST` data, in t
 It was added a Swagger dependency in `build.gradle` file. This dependency is marked as selected in the next image:
 
 ![build.gradle](images/swagger-gradle-dependency.png)
+
+This way we can access `http://127.0.0.1:8085/swagger-ui.html`:
+
+![accessing Swagger](images/swagger.png)
