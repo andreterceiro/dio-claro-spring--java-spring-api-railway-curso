@@ -121,3 +121,5 @@ Teacher created the models. Please verify every file in the repository (https://
 # Service
 
 Teacher created interfaces to be exposedin the "`service`" package and in the subdirectory "`impl`" created the implementations that implements the interfaces. As you can see in the files, the unique implementation class that we have is "`UserServiceImpl.java`" that uses the "`Repository`".
+
+The `UserRepository` is injected in the service by Spring, but we do **not** need am annotation "`@Autowired`".
