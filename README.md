@@ -149,3 +149,7 @@ You can see in the source that maybe the user do not exists, an exception is thr
 As you can see in the next image, this is the way we deal with `POST` data, in the `body` of the request, not the URL:
 
 ![post request](images/post-request.png)
+
+It was added a Swagger dependency in `build.gradle` file. This dependency is marked as selected in the next image:
+
+![build.gradle](images/swagger-gradle-dependency.png)
