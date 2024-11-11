@@ -286,3 +286,5 @@ I recorded [this video](https://youtu.be/6YjE987Vjfg) about the project working 
 Teacher inserted this `@OpenAPIDefinition` annotation to solve a CORS problem:
 
 ![open api definition](images/open-api-definition.png)
+
+Why I didn't experienced the problem? Because I got the final code of the teacher. I forked the DIO repository.
