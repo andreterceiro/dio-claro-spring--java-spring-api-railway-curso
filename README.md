@@ -235,3 +235,19 @@ public class GlobalExceptionHandler {
 Teacher instructed us to change the configuration "`ddl-auto`" configuration as I showed in the next image in the first running to "create" and in the following app running to "validate":
 
 ![ddl auto configuration](images/ddl-auto-configuration.png)
+
+
+# Trying to access things in Railway
+
+I installed the Railway CLI this way:
+
+```
+bash <(curl -fsSL cli.new)
+```
+
+Then I ran the following commands:
+
+```
+railway link
+railway up
+```
