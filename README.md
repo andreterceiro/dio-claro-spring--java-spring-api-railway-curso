@@ -251,3 +251,25 @@ Then I ran the following commands:
 railway link
 railway up
 ```
+
+
+# Next attempts trying to run the app on Railway
+
+I accessed [this](https://docs.railway.app/quick-start#deploying-your-project---with-the-cli) documentation.
+
+I ran:
+
+```
+railway init
+railway run
+```
+
+I exposed the service in this page (the interface is a little different now):
+
+![exposing in Railway](images/exposing-in-railway.png)
+
+But when I run the previous commands in CLI, Railway generated the name `"fair-hour"`, ok? This name is on the image.
+
+The URL that Railway passed to me was "http://fair-hour-production.up.railway.app" as you can see in the image.
+
+Then I achieved to access the API in browser using this URL. In port 80, right? I do not know clearly why.
