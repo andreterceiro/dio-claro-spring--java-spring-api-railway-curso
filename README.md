@@ -98,3 +98,11 @@ When I tried to copy some model classes from the official repository, I run into
 I changed the strategy to change the port of the application. I removed the file `application.properties` and inserted the next configuration to the YML file `src/main/resources/application-dev.yml`. I have also to insert a environment variable in `Eclipse` in `Run -> Run configuration -> Environment`:
 
 ![environment variable](images/enviroment-variable.png)
+
+To be more clear, the environment variable was:
+
+```
+SPRING_PROFILES_ACTIVE = dev
+```
+
+**Important**: as you can see in the image, the equals sign do not exists. There are two fields.
