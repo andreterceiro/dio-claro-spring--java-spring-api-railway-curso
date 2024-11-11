@@ -91,4 +91,4 @@ classDiagram
   User "1" *-- "N" News
 ```
 
-Teacher passed use [this site](https://mermaid.js.org/) as the official website who talks about Mermaid.
+Teacher passed use [this site](https://mermaid.js.org/) as the official website who talks about Mermaid. Teacher talked us that Mermaid is very powerful, supports several things, like relations and sequence diagram!
