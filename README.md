@@ -213,7 +213,7 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(NotFoundException.class)
-    public ResponseEntity<String> handleNoContentException() {
+    public ResponseEntity<String> hdd-auto-configuration.pngandleNoContentException() {
         return new ResponseEntity<>("Resource ID not found.", HttpStatus.NOT_FOUND);
     }
 
@@ -228,3 +228,10 @@ public class GlobalExceptionHandler {
 
 - See the annotation "`@RestControllerAdvice`";
 - See the annotations "`@ExceptionHandler(NotFoundException.class)`" ("NotFoundException" is an example).
+
+
+# Configuration to production
+
+Teacher instructed us to change the configuration "`ddl-auto`" configuration as I showed in the next image in the first running to "create" and in the following app running to "validate":
+
+![ddl auto configuration](images/ddl-auto-configuration.png)
