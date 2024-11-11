@@ -145,3 +145,7 @@ Remembering how to get a variable through URL:
 ![path variable](images/path-variable.png)
 
 You can see in the source that maybe the user do not exists, an exception is throwed in the service. The controller uses the service, but as you can see in the previous image it wasn't necessary to catch this exception in the controller.
+
+As you can see in the next image, this is the way we deal with `POST` data, in the `body` of the request, not the URL:
+
+![post request](images/post-request.png)
