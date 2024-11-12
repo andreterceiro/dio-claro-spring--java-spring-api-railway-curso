@@ -288,3 +288,14 @@ Teacher inserted this `@OpenAPIDefinition` annotation to solve a CORS problem:
 ![open api definition](images/open-api-definition.png)
 
 Why I didn't experienced the problem? Because I got the final code of the teacher. I forked the DIO repository.
+
+
+# Some things that I do not know
+
+I do not know why, but when I run the project through Eclipse, the configuration of port (8085) works, but when I run the following command in the root directory (through terminal), the API is exposed on port 8080:
+
+```
+./gradlew bootRun
+```
+
+I tried to return the "`prd`" configuraton to use Postgres, but i got an error related to a JDBC string (if I remember correctly). I do not try an extensive find of the solution.
