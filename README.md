@@ -299,3 +299,11 @@ I do not know why, but when I run the project through Eclipse, the configuration
 ```
 
 I tried to return the "`prd`" configuraton to use Postgres, but i got an error related to a JDBC string (if I remember correctly). I do not try an extensive find of the solution.
+
+In the process of debugging I removed the Tomcat that used the por 8080 from my machine because if I kill the proccess it was restarted and I do ot know how to kill the daemon. The command that I used was:
+
+```
+sudo apt-get remove tomcat9
+```
+
+Remembering: this is not the Tomcat of the application, that is embedded in the application.
